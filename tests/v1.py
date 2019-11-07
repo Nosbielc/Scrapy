@@ -2,8 +2,6 @@ import scrapy
 # from scrapy.cmdline import execute
 # execute()
 
-
-
 class UolSpider(scrapy.Spider):
     name = 'uol'
     start_urls = ['https://www.uol.com.br/']
